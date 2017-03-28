@@ -28,7 +28,7 @@ else
 fi
 
 chroot_dir="/var/chroot/${os}_${arch}_$suite"
-docker_image="osrf/${os}_$arch:$suite"
+docker_image="robbieuniko/${os}_$arch:$suite"
 
 foreign_arches=(armhf arm64)
 
