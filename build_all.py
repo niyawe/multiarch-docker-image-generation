@@ -53,7 +53,7 @@ args = parser.parse_args()
 successful_builds = []
 failed_builds = []
 for (o, s, a) in get_supported_targets():
-    image_name = "osrf/%s_%s:%s" % (o, a, s)
+    image_name = "robbieuniko/%s_%s:%s" % (o, a, s)
     if args.os and args.os != o:
         print("%s does not match os argument %s" % (image_name, args.os))
         continue
